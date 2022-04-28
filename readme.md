@@ -232,7 +232,7 @@ _Ways to `require`._
 _A basic Apollo Client setup._
 
 > ```js
-> import { ApolloClient, InMemoryCache } from "@apollo/client";
+> import { ApolloClient, InMemoryCache } from "@harshitp96/client";
 > import createUploadLink from "apollo-upload-client/public/createUploadLink.js";
 >
 > const client = new ApolloClient({
