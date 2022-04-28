@@ -1,6 +1,6 @@
 "use strict";
 
-const { ApolloLink, Observable } = require("@apollo/client/core");
+const { ApolloLink, Observable } = require("@harshitp96/client/core");
 const {
   createSignalIfSupported,
   fallbackHttpConfig,
@@ -9,7 +9,7 @@ const {
   selectHttpOptionsAndBody,
   selectURI,
   serializeFetchParameter,
-} = require("@apollo/client/link/http");
+} = require("@harshitp96/client/link/http");
 const extractFiles = require("extract-files/public/extractFiles.js");
 const formDataAppendFile = require("./formDataAppendFile.js");
 const isExtractableFile = require("./isExtractableFile.js");
@@ -63,7 +63,7 @@ const isExtractableFile = require("./isExtractableFile.js");
  * ```
  * @example <caption>A basic Apollo Client setup.</caption>
  * ```js
- * import { ApolloClient, InMemoryCache } from "@apollo/client";
+ * import { ApolloClient, InMemoryCache } from "@harshitp96/client";
  * import createUploadLink from "apollo-upload-client/public/createUploadLink.js";
  *
  * const client = new ApolloClient({
@@ -166,7 +166,7 @@ module.exports = function createUploadLink({
         const { newURI, parseError } = rewriteURIForGET(uri, body);
         if (parseError)
           // Apollo’s `HttpLink` uses `fromError` for this, but it’s not
-          // exported from `@apollo/client/link/http`.
+          // exported from `@harshitp96/client/link/http`.
           return new Observable((observer) => {
             observer.error(parseError);
           });

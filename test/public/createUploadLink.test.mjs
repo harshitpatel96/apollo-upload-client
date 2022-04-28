@@ -1,4 +1,4 @@
-import apolloClientCore from "@apollo/client/core/core.cjs";
+import apolloClientCore from "@harshitp96/client/core/core.cjs";
 import { AbortController, AbortSignal } from "abort-controller";
 import { deepStrictEqual, strictEqual } from "assert";
 import { File, FormData } from "formdata-node";
