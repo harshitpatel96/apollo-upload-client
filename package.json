@@ -1,17 +1,15 @@
 {
-  "name": "apollo-upload-client",
+  "name": "harshit-apollo-upload-client",
   "version": "17.0.0",
   "description": "A terminating Apollo Link for Apollo Client that fetches a GraphQL multipart request if the GraphQL variables contain files (by default FileList, File, Blob, or ReactNativeFile instances), or else fetches a regular GraphQL POST or GET request (depending on the config and GraphQL operation).",
   "license": "MIT",
   "author": {
-    "name": "Jayden Seric",
-    "email": "me@jaydenseric.com",
-    "url": "https://jaydenseric.com"
+    "name": "Harshit",
+    "email": "abc@abc.com"
   },
-  "repository": "github:jaydenseric/apollo-upload-client",
-  "homepage": "https://github.com/jaydenseric/apollo-upload-client#readme",
-  "bugs": "https://github.com/jaydenseric/apollo-upload-client/issues",
-  "funding": "https://github.com/sponsors/jaydenseric",
+  "repository": "github:harshitpatel96/apollo-upload-client",
+  "homepage": "https://github.com/harshitpatel96/apollo-upload-client#readme",
+  "bugs": "https://github.com/harshitpatel96/apollo-upload-client/issues",
   "keywords": [
     "graphql",
     "multipart",
